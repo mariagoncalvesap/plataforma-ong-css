@@ -1,0 +1,75 @@
+
+/* ESTILOS GERAIS */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #001b38;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*  MENU DE NAVEGAÇÃO  */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* CONTEÚDO PRINCIPAL  */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/*  RODAPÉ  */
+footer {
+    background-color: #001b38;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+/*  TÍTULOS  */
+h1 {
+    color: #ddff03;
+}
+
+h2, h3 {
+    color: #001b38;
+}
+
+/*  IMAGENS  */
+img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
