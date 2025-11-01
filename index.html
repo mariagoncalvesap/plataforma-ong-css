@@ -12,6 +12,7 @@
 <body>
     <header>
         <h1>ONG Futuro Feliz </h1>
+        <button class="menu-toggle">☰</button>
         <nav>
         <ul>
             <li><a href="index.html">Início</a></li>
@@ -53,4 +54,13 @@ oferecendo cursos gratuitos e apoio psicológico.</p>
     </section>
     
 </main>
+<script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navUl = document.querySelector('nav ul');
+    menuToggle.addEventListener('click', () => {
+        navUl.classList.toggle('mostrar');
+    });
+</script>
 </body>
+</html>
+

@@ -1,17 +1,31 @@
+/*  SISTEMA DE DESIGN  */
+:root {
+    --cor-primaria: #001b38;
+    --cor-secundaria: #ddff03;
+    --cor-fundo: #f4f7fa;
+    --cor-texto: #333;
+    --cor-botao-hover: #004080;
 
-/* ESTILOS GERAIS */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f7fa;
-    color: #333;
+    --fonte-principal: "Poppins", Arial, sans-serif;
+
+    --espaco-8: 8px;
+    --espaco-16: 16px;
+    --espaco-24: 24px;
+    --espaco-32: 32px;
+    --espaco-48: 48px;
+    --espaco-64: 64px;
 }
 
-/* CABEÇALHO */
+/* ESTILOS GERAIS  */
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+/*  CABEÇALHO  */
 header {
-    background-color: #001b38;
+    background-color: var(--cor-primaria);
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -38,7 +52,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* CONTEÚDO PRINCIPAL  */
+/*  CONTEÚDO PRINCIPAL */
 main {
     max-width: 900px;
     margin: 40px auto;
@@ -50,7 +64,7 @@ main {
 
 /*  RODAPÉ  */
 footer {
-    background-color: #001b38;
+    background-color: var(--cor-primaria);
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -59,17 +73,26 @@ footer {
 
 /*  TÍTULOS  */
 h1 {
-    color: #ddff03;
+    color: var(--cor-secundaria);
 }
 
 h2, h3 {
-    color: #001b38;
+    color: var(--cor-primaria);
 }
 
-/*  IMAGENS  */
+/*  IMAGENS */
 img {
     width: 100%;
     max-width: 500px;
     border-radius: 8px;
     margin-top: 30px;
+}
+
+/*  BOTÕES  */
+button {
+    background-color: var(--cor-primaria);
+}
+
+button:hover {
+    background-color: var(--cor-botao-hover);
 }
